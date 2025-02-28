@@ -1,0 +1,576 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio Muslih Akbar</title>
+    <script
+      const
+      typingText="document"
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Muslih Akbar</a>
+      <nav>
+        <a href="#" class="active">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home">
+      <div class="home img">
+        <img src="profile.JPG" alt="Muslih Akbar" />
+      </div>
+      <div class="home-content">
+        <h1>Hi, I'm <span>Muslih Akbar</span></h1>
+        <h3 class="typing-text">I'm a <span></span></h3>
+        <h3 class="tagline">
+          Driving Efficiency Through Technology and Innovation
+        </h3>
+        <p>
+          I am a passionate professional with over 6 years of experience in the
+          manufacturing industry, specializing in machine operation and process
+          optimization. Currently pursuing a degree in Information Systems, I
+          aim to integrate IT solutions with industrial processes to enhance
+          efficiency and quality. Let's build something great together!
+        </p>
+        <div class="home-buttons">
+          <a href="mailto:muslihakbar8@gmail.com" class="btn">Hire me</a>
+          <a href="Muslih Akbar-resume.pdf" class="btn download" download
+            >Download CV</a
+          >
+        </div>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/muslih_akbar/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://www.instagram.com/mslhakbar"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            Hi, I'm Muslih Akbar, a passionate professional with over 6 years of
+            experience in the manufacturing industry. I specialize in machine
+            operation, process optimization, and quality control, with a strong
+            focus on improving production efficiency and ensuring workplace
+            safety.
+          </p>
+          <p>
+            Currently, I am pursuing a degree in Information Systems at
+            Universitas Terbuka to integrate IT solutions with industrial
+            processes. My goal is to leverage technology to enhance
+            productivity, reduce costs, and improve overall operational
+            efficiency in the manufacturing sector.
+          </p>
+          <p>
+            Throughout my career, I have gained expertise in operating various
+            machines, including plastic injection molding, die casting, and
+            welding. I am also skilled in troubleshooting technical issues,
+            conducting preventive maintenance, and implementing quality control
+            standards.
+          </p>
+          <p>
+            Outside of work, I enjoy learning new technologies, solving complex
+            problems, and collaborating with teams to achieve common goals. I am
+            always eager to take on new challenges and expand my knowledge in
+            both manufacturing and IT.
+          </p>
+          <a href="#contact" class="btn">Get in Touch</a>
+        </div>
+        <div class="about-image">
+          <img src="main.jpg" alt="Muslih Akbar" />
+        </div>
+      </div>
+      <div class="about-skills">
+        <div class="skill-item">
+          <i class="fas fa-industry"></i>
+          <p>Machine Operation</p>
+        </div>
+        <div class="skill-item">
+          <i class="fas fa-cogs"></i>
+          <p>Process Optimization</p>
+        </div>
+        <div class="skill-item">
+          <i class="fas fa-shield-alt"></i>
+          <p>Quality & Safety</p>
+        </div>
+        <div class="skill-item">
+          <i class="fas fa-laptop-code"></i>
+          <p>Information Systems</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section id="expertise" class="expertise">
+      <h2>Expertise</h2>
+      <div class="expertise-content">
+        <div class="expertise-item">
+          <i class="fas fa-industry"></i>
+          <h3>Machine Operation</h3>
+          <p>
+            Experienced in operating plastic injection molding, die casting, and
+            welding machines.
+          </p>
+        </div>
+        <div class="expertise-item">
+          <i class="fas fa-chart-line"></i>
+          <h3>Process Optimization</h3>
+          <p>
+            Skilled in improving production efficiency and reducing costs
+            through process optimization.
+          </p>
+        </div>
+        <div class="expertise-item">
+          <i class="fas fa-shield-alt"></i>
+          <h3>Quality & Safety</h3>
+          <p>
+            Knowledgeable in quality control standards and workplace safety
+            protocols.
+          </p>
+        </div>
+        <div class="expertise-item">
+          <i class="fas fa-laptop-code"></i>
+          <h3>Information Systems</h3>
+          <p>
+            Currently studying Information Systems to integrate IT solutions
+            with industrial processes.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <h2>Skills</h2>
+      <div class="skills-content">
+        <!-- Technical Skills -->
+        <div
+          class="skill-card"
+          data-tooltip="Expert in Plastic Injection Molding"
+        >
+          <i class="fas fa-industry"></i>
+          <h3>Plastic Injection</h3>
+          <div class="circular-progress" data-progress="90">
+            <div class="progress-value">90%</div>
+          </div>
+        </div>
+        <div class="skill-card" data-tooltip="Proficient in CO & Spot Welding">
+          <i class="fas fa-tools"></i>
+          <h3>CO & Spot Welding</h3>
+          <div class="circular-progress" data-progress="85">
+            <div class="progress-value">85%</div>
+          </div>
+        </div>
+        <div
+          class="skill-card"
+          data-tooltip="Skilled in Chrome Plating Techniques"
+        >
+          <i class="fas fa-paint-roller"></i>
+          <h3>Chrome Plating</h3>
+          <div class="circular-progress" data-progress="80">
+            <div class="progress-value">80%</div>
+          </div>
+        </div>
+        <div
+          class="skill-card"
+          data-tooltip="Expert in Die Casting Machines (TOYO Japan)"
+        >
+          <i class="fas fa-cogs"></i>
+          <h3>Die Casting</h3>
+          <div class="circular-progress" data-progress="95">
+            <div class="progress-value">95%</div>
+          </div>
+        </div>
+        <div
+          class="skill-card"
+          data-tooltip="Experienced in Machine Troubleshooting"
+        >
+          <i class="fas fa-wrench"></i>
+          <h3>Machine Troubleshooting</h3>
+          <div class="circular-progress" data-progress="90">
+            <div class="progress-value">90%</div>
+          </div>
+        </div>
+        <div
+          class="skill-card"
+          data-tooltip="Knowledgeable in Quality & Safety Standards"
+        >
+          <i class="fas fa-shield-alt"></i>
+          <h3>Quality & Safety</h3>
+          <div class="circular-progress" data-progress="85">
+            <div class="progress-value">85%</div>
+          </div>
+        </div>
+
+        <!-- Hard Skills -->
+        <div class="skill-card" data-tooltip="Proficient in Microsoft Office">
+          <i class="fas fa-file-excel"></i>
+          <h3>Microsoft Office</h3>
+          <div class="circular-progress" data-progress="90">
+            <div class="progress-value">90%</div>
+          </div>
+        </div>
+        <div
+          class="skill-card"
+          data-tooltip="Basic Understanding of ERP Systems"
+        >
+          <i class="fas fa-database"></i>
+          <h3>ERP Systems</h3>
+          <div class="circular-progress" data-progress="75">
+            <div class="progress-value">75%</div>
+          </div>
+        </div>
+        <div
+          class="skill-card"
+          data-tooltip="Familiar with Quality Control Standards"
+        >
+          <i class="fas fa-check-circle"></i>
+          <h3>Quality Control</h3>
+          <div class="circular-progress" data-progress="85">
+            <div class="progress-value">85%</div>
+          </div>
+        </div>
+
+        <!-- Soft Skills -->
+        <div class="skill-card" data-tooltip="Strong Problem-Solving Skills">
+          <i class="fas fa-lightbulb"></i>
+          <h3>Problem Solving</h3>
+          <div class="circular-progress" data-progress="95">
+            <div class="progress-value">95%</div>
+          </div>
+        </div>
+        <div class="skill-card" data-tooltip="Excellent Team Collaboration">
+          <i class="fas fa-users"></i>
+          <h3>Team Collaboration</h3>
+          <div class="circular-progress" data-progress="90">
+            <div class="progress-value">90%</div>
+          </div>
+        </div>
+        <div class="skill-card" data-tooltip="Effective Time Management">
+          <i class="fas fa-clock"></i>
+          <h3>Time Management</h3>
+          <div class="circular-progress" data-progress="85">
+            <div class="progress-value">85%</div>
+          </div>
+        </div>
+        <div
+          class="skill-card"
+          data-tooltip="Highly Adaptable to New Technologies"
+        >
+          <i class="fas fa-sync-alt"></i>
+          <h3>Adaptability</h3>
+          <div class="circular-progress" data-progress="90">
+            <div class="progress-value">90%</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+      <h2>Education</h2>
+      <div class="education-content">
+        <div class="education-card">
+          <div class="education-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div class="education-details">
+            <h3>Open University</h3>
+            <span>2023 - Present</span>
+            <p>Bachelor of Information Systems</p>
+            <ul>
+              <li>
+                Actively participating in webinars and training related to
+                Information Systems.
+              </li>
+              <li>Developing a database project for inventory management.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="education-card">
+          <div class="education-icon">
+            <i class="fas fa-school"></i>
+          </div>
+          <div class="education-details">
+            <h3>SMA Negeri 1 Pejagoan</h3>
+            <span>2015 - 2018</span>
+            <p>Social Sciences Major</p>
+            <ul>
+              <li>
+                Active in extracurricular activities and student organizations.
+              </li>
+              <li>Achieved high grades in Economics and Sociology subjects.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+      <h2>Experience</h2>
+      <div class="experience-content">
+        <!-- PT. Progress Diecast -->
+        <div class="experience-card">
+          <div class="experience-icon">
+            <i class="fas fa-industry"></i>
+          </div>
+          <div class="experience-details">
+            <h3>PT. Progress Diecast</h3>
+            <span>Machine Diecasting Operator | 2022 - Present</span>
+            <ul>
+              <li>
+                Operated and maintained die casting machines (TOYO Japan) to
+                meet production standards.
+              </li>
+              <li>
+                Reduced machine downtime by 15% through preventive maintenance.
+              </li>
+              <li>
+                Improved production efficiency by optimizing die casting
+                processes.
+              </li>
+            </ul>
+            <a
+              href="https://drive.google.com/file/d/1NE4GCzA1KoIYl8Vt0zxr1wC9YI8c6oXI/view"
+              class="view-certificate"
+              target="_blank"
+              >View Certificate</a
+            >
+          </div>
+        </div>
+
+        <!-- PT. Multi Usage Indonesia -->
+        <div class="experience-card">
+          <div class="experience-icon">
+            <i class="fas fa-paint-roller"></i>
+          </div>
+          <div class="experience-details">
+            <h3>PT. Multi Usage Indonesia</h3>
+            <span>Plating Operator | May 2022 - Aug 2022</span>
+            <ul>
+              <li>
+                Conducted chrome plating on plastic materials using chemical
+                substances.
+              </li>
+              <li>
+                Ensured final products met required surface quality standards.
+              </li>
+              <li>Maintained a safe and efficient working environment.</li>
+            </ul>
+            <a
+              href="https://drive.google.com/file/d/1qzBm42WHp5XVkym42wC966kNa38LOPqi/view"
+              class="view-certificate"
+              target="_blank"
+              >View Certificate</a
+            >
+          </div>
+        </div>
+        <!-- PT. Mitsubishi Motors Krama Yudha Indonesia -->
+        <div class="experience-card">
+          <div class="experience-icon">
+            <i class="fas fa-car"></i>
+          </div>
+          <div class="experience-details">
+            <h3>PT. Mitsubishi Motors Krama Yudha Indonesia</h3>
+            <span>Welding Operator | 2019 - 2021</span>
+            <ul>
+              <li>Performed CO and spot welding on automotive components.</li>
+              <li>
+                Participated in the trial production of the New Pajero Sport
+                model.
+              </li>
+              <li>
+                Ensured high welding quality under tight production deadlines.
+              </li>
+            </ul>
+            <a
+              href="https://drive.google.com/file/d/1gbRq_NjpZoPVf2R_IV9fi6ZQ0Fp_ward/view"
+              class="view-certificate"
+              target="_blank"
+              >View Certificate</a
+            >
+          </div>
+        </div>
+
+        <!-- PT. Dynaplast -->
+        <div class="experience-card">
+          <div class="experience-icon">
+            <i class="fas fa-boxes"></i>
+          </div>
+          <div class="experience-details">
+            <h3>PT. Dynaplast</h3>
+            <span>Material Handler | Jul 2018 - Jul 2019</span>
+            <ul>
+              <li>
+                Managed plastic raw materials for injection molding processes.
+              </li>
+              <li>
+                Conducted quality inspections to ensure production material
+                usability.
+              </li>
+              <li>
+                Coordinated with production teams to meet material requirements.
+              </li>
+            </ul>
+            <a
+              href="https://drive.google.com/file/d/1NE4GCzA1KoIYl8Vt0zxr1wC9YI8c6oXI/view"
+              class="view-certificate"
+              target="_blank"
+              >View Certificate</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <p>Email: muslihakbar8@gmail.com</p>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-phone-alt"></i>
+            <p>Phone: +6283154904450</p>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Address: Kebumen, Central Java, Indonesia</p>
+          </div>
+          <a href="Muslih Akbar-resume.pdf" class="btn download" download
+            >Download CV</a
+          >
+        </div>
+        <form id="contact-form">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2024 Muslih Akbar. All rights reserved.</p>
+    </footer>
+
+    <script>
+      const typingText = document.querySelector(".typing-text");
+      const roles = [
+        "Machine Operator",
+        "Process Optimization Specialist",
+        "Information Systems Student",
+        "Problem Solver",
+      ];
+      let roleIndex = 0;
+      let charIndex = 0;
+
+      const type = () => {
+        if (charIndex < roles[roleIndex].length) {
+          typingText.querySelector("span").textContent +=
+            roles[roleIndex].charAt(charIndex);
+          charIndex++;
+          setTimeout(type, 100); // Kecepatan mengetik (ms)
+        } else {
+          setTimeout(erase, 2000); // Jeda sebelum menghapus (ms)
+        }
+      };
+
+      const erase = () => {
+        if (charIndex > 0) {
+          typingText.querySelector("span").textContent = roles[
+            roleIndex
+          ].substring(0, charIndex - 1);
+          charIndex--;
+          setTimeout(erase, 50); // Kecepatan menghapus (ms)
+        } else {
+          roleIndex = (roleIndex + 1) % roles.length; // Pindah ke role berikutnya
+          setTimeout(type, 500); // Jeda sebelum mengetik role baru (ms)
+        }
+      };
+
+      // Mulai animasi saat halaman dimuat
+      document.addEventListener("DOMContentLoaded", () => {
+        if (roles.length) setTimeout(type, 1000); // Jeda sebelum memulai (ms)
+      });
+      // Initialize EmailJS with your user ID
+      emailjs.init("x8yxlUODMHeEzUYc1"); // Replace with your EmailJS user ID
+
+      // Event listener for the form submission
+      document
+        .getElementById("contact-form")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          // Send form data using EmailJS
+          emailjs.sendForm("service_56q76tz", "template_476eans", this).then(
+            function (response) {
+              console.log("Success:", response);
+              alert("Your message has been sent successfully!");
+            },
+            function (error) {
+              console.error("Error:", error);
+              alert(
+                "There was an error sending your message. Please try again."
+              );
+            }
+          );
+        });
+
+      // Scroll animation for sections
+      document.addEventListener("scroll", () => {
+        const sections = document.querySelectorAll("section");
+        sections.forEach((section) => {
+          const sectionTop = section.getBoundingClientRect().top;
+          if (sectionTop < window.innerHeight - 100) {
+            section.classList.add("active");
+          }
+        });
+      });
+
+      // Circular Progress Bar Animation
+      const circularProgressBars =
+        document.querySelectorAll(".circular-progress");
+      circularProgressBars.forEach((progressBar) => {
+        const progressValue = progressBar.querySelector(".progress-value");
+        const progress = progressBar.getAttribute("data-progress");
+        progressBar.style.background = `conic-gradient(#b74b4b ${progress}%, #333 0%)`;
+        progressValue.textContent = `${progress}%`;
+      });
+    </script>
+  </body>
+</html>
